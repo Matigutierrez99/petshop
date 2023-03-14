@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif
+}
+
+.headertop{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    height:20px;
+    font-size: 10px;
+    color: white;
+}
+
+header section p {
+    padding: 150px;
+}
+
+header section ul {
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+
+header section ul li{
+    padding: 10px
+}
+
+.headerbottom{
+    background-color:#F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.logospan{
+    color: black;
+}
+
+.fondoprincipal{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bienvenidadiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+}
+
+.bienvenida{
+    background-color: white;
+    font-size: 30px;
+    height: 54px;
+    width: 365px;
+    text-align: center;
+    padding: 9px;
+    margin: 10px;
+}
+
+.bienvenida3{
+    background-color: #F0A83E;
+    color: white;
+    height: 49px;
+    width: 141px;
+    text-align: center;
+    padding: 15px 23px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #3C2313;
+    height: 47px;
+}
+
+.tituloopciones{
+    color: #666666;
+    font-size: 15px;
+    height: 18px;
+    padding: 15px;
+}
+
+.opciones{
+    display: flex;
+}
+
+.plata{
+    color: #F0A83E;
+    font-size: 15px;
+}
+
+.churrasquito{
+    background-image: url(../img/churrasquito.png);
+    color: #3C2313;
+    height: 268.8616943359375px;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.divchurrasquito{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.comedero{
+    background-image: url(../img/comedero.png);
+    color: #3C2313;
+    height: 266.8553161621094px;
+    width: 262.02984619140625px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.divcomedero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.huesito{
+    background-image: url(../img/Huesito.png);
+    color: #3C2313;
+    height: 268.86175537109375px;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.divhuesito{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacto{
+    color: #3C2313;
+    font-size: 25px;
+    font-weight: 700px;
+    padding: 60px 0 12px 0
+}
+
+.fondocontacto{
+    background-color: #3C2313;
+    color: white;
+    font-size: 9px;
+    height: 40px;
+    width: 340px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.envio{padding: 40px;
+}
+
+.reset{
+    background-color: #8A8787;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 15px;
+}
+
+.enviar{
+    background-color: #F0A83E;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 15px;
+}
+
+.footertop{
+    background-color: #F0A83E;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: space-between
+}
+
+.mensajeria{
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px;
+}    
+
+.mail{
+    padding: 47px;
+}
+
+.correo{
+    background-color: white;
+    color: #A0A0A0;
+    border-radius: 15px;
+    font-size: 9px;
+    padding: 14px 148px 14px 8px;
+    margin: 5px;
+}
+
+.suscribirme{
+    background-color: #3C2313;
+    color: white;
+    font-size: 9px;
+    font-weight: 700px;
+    padding: 12px 10px;
+    border-radius: 15px;
+}
+
+.footercenter{
+    display: flex;
+    background-color: #3C2313;    
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datos{
+    display: flex;
+    padding: 15px 50px;
+}
+
+.datosright{
+    padding: 0 25px;
+}
+
+.detalles{
+    color:#8A8787;
+    font-size: 10px;
+    font-weight: 700px;
+}
+
+.logospanbottom{
+    color: #F0A83E;
+}
+
+.footerbottom{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
